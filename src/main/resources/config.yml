@@ -1,38 +1,20 @@
 color_palette:
-  - "amaranth_purple=#AB274F"
   - "dark_red=#AA0000"
-  - "blood_red=#660000"
   - "red=#FF5555"
-  - "aero_orange=#FF4F00"
   - "gold=#FFAA00"
   - "yellow=#FFFF55"
-  - "peach=#FFE5B4"
   - "dark_green=#00AA00"
   - "green=#55FF55"
-  - "myrtle_green=#317873"
   - "aqua=#55FFFF"
   - "dark_aqua=#00AAAA"
-  - "zomp=#39A78D"
-  - "pacific_cyan=#1CA9C9"
   - "dark_blue=#0000AA"
   - "blue=#5555FF"
-  - "ultramarine=#120A8F"
-  - "denim=#1560BD"
   - "light_purple=#FF55FF"
   - "dark_purple=#AA00AA"
-  - "indigo=#4B0082"
-  - "byzantium=#702963"
-  - "hot_pink=#FF69B4"
-  - "cherry_blossom=#FFB7C5"
   - "white=#FFFFFF"
-  - "dutch_white=#EFDFBB"
   - "gray=#AAAAAA"
   - "dark_gray=#555555"
-  - "silver=#FCFCFC"
   - "black=#000000"
-  - "dark_brown=#4B3621"
-  - "light_brown=#964B00"
-  - "night=#222222"
 
 allow_op_bypass_restrictions: true # op players are able to use every possible setting and color freely
 allow_nc_tab_complete: true # allow people to quickly select their namecolor with tab key
@@ -66,50 +48,32 @@ namecolor_command_texts:
 # if the requirements of a color are negative, the color will be unobtainable unless through other means (whitelist / op)
 playtime_joindate_requirements:
   # text styles:
-  - "gradient=-1,-1"
-  - "alternating=-1,-1"
-  - "flag=-1,-1"
+  - "gradient=400,420"
+  - "alternating=464,528"
+  - "flag=520,664"
 
     # colors:
-  - "amaranth_purple=-1,-1"
-  - "dark_red=500,70"
-  - "blood_red=1000,100"
-  - "red=20,0"
-  - "aero_orange=200,60"
-  - "gold=10,0"
-  - "yellow=30,0"
-  - "peach=-1,-1"
+  - "dark_red=384,365"
+  - "red=64,32"
+  - "gold=48,24"
+  - "yellow=96,64"
   - "dark_green=-1,-1"
-  - "green=-1,-1"
-  - "myrtle_green=-1,-1"
-  - "aqua=70,0"
-  - "dark_aqua=200,D9-13-2023"
-  - "zomp=-1,-1"
-  - "pacific_cyan=-1,-1"
-  - "dark_blue=100,90"
-  - "blue=5,0"
-  - "ultramarine=-1,-1"
-  - "denim=-1,-1"
+  - "green=48,32"
+  - "aqua=424,365"
+  - "dark_aqua=528,365"
+  - "dark_blue=-1,-1"
+  - "blue=16,8"
   - "light_purple=-1,-1"
-  - "dark_purple=15,0"
-  - "indigo=-1,-1"
-  - "byzantium=-1,-1"
-  - "hot_pink=-1,-1"
-  - "cherry_blossom=-1,-1"
-  - "white=1,0"
-  - "dutch_white=-1,-1"
+  - "dark_purple=32,32"
+  - "white=2,0"
   - "gray=0,0"
-  - "dark_gray=100,100"
-  - "silver=-1,-1"
+  - "dark_gray=264,128"
   - "black=-1,-1"
-  - "dark_brown=-1,-1"
-  - "light_brown=-1,-1"
-  - "night=-1,-1"
 
   # text decorations:
-  - "bold=40,50"
+  - "bold=384,365"
   - "underlined=-1,-1"
-  - "italic=0,D8-20-2023"
+  - "italic=428,564"
   - "strikethrough=-1,-1"
   - "obfuscated=-1,-1"
 
@@ -117,17 +81,13 @@ playtime_joindate_requirements:
   - "hex=-1,-1"
 
 whitelists:
-  cool_people: # any amount of whitelists with any name can be added here with each having different permissions
+  donators: # any amount of whitelists with any name can be added here with each having different permissions
 
     # text decorations can be used here
     # custom user-defined color options such as 'hex' and 'rgb' may also be added here too
     color_palette:
       - "light_purple"
       - "italic"
-      - "underlined"
-      - "dark_aqua"
 
     # any people on this whitelist will have access to the above listed colors, no matter their playtime or joindate or op status
-    whitelisted_users:
-      - "dc596807-4124-4946-a15c-57172943feff"
-      - "6d5453d0-9336-4801-9392-d8cf5e4136e2"
+    whitelisted_users: []
